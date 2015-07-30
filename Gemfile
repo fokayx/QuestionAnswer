@@ -10,6 +10,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# test user secure password
+gem 'bcrypt'
+
 # bootstrap
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'

@@ -84,6 +84,8 @@ class QuestionsController < ApplicationController
           :content,
           :_destroy
         ])
-      #ansers_attributes是個key~，所以前面不加:answers_attributes
+      #整個是hash{ansers_attributes是key~，後面接的是array是[value]}，
+      #寫成:answers_attributes => [:id, :conten] 或 answers_attributes: [:id, :content] 
+      # :id, :content 值會由表單傳入"string"
     end
 end

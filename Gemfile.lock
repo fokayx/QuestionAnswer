@@ -276,6 +276,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
+  bcrypt
   better_errors
   bootstrap-kaminari-views
   bootstrap-sass
